@@ -1,0 +1,34 @@
+/* 
+    Document   : wpbbookmark
+    Created on : Jan 11, 2012, 9:14:13 PM
+    Author     : nur
+    Description:
+*/
+.binnash-bookmark-submenu{	
+	list-style:none;	
+	margin:0 0 5px 0;	
+	padding:0;	
+	height:2em;	
+	font-size:14px;	
+	clear:both;
+	background:#ECECEC none repeat scroll 0 0;
+}
+
+.binnash-bookmark-submenu li{
+	float:left;
+	padding:0;
+	margin:0;
+}
+
+.binnash-bookmark-submenu li a{
+	display:block;
+	float:left;
+	margin:0 0 0 12px;
+	padding:0 5px;
+	text-decoration:none;
+	line-height:200%;
+}
+.binnash-bookmark-submenu li.current{
+	 border-top:2px solid #ECECEC;
+	 background:#F9F9F9;
+}

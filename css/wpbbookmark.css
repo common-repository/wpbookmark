@@ -1,0 +1,19 @@
+/* 
+    Document   : wpbbookmark
+    Created on : Jan 11, 2012, 10:25:34 PM
+    Author     : nur
+    Description:
+*/
+
+
+/********************************/
+.binnash-bookmark-button   { font-family: arial; height: 60px; width: 50px; text-align: center;float: right;margin-top:-45px;height:45px;}
+.binnash-bookmark-button a { text-decoration: none; border: none; }
+.binnash-bookmark-button a:hover { text-decoration: none; }
+.binnash-bookmark-button .count { background: url('../images/widget.gif') no-repeat; position:relative; display: block; text-decoration: none; width: 50px; height: 34px; text-align: center; font-size: 17px; color: #444444; padding: 4px 0px; }
+.binnash-bookmark-button .count span.t { font-size: 10px; line-height: 10px; position: absolute; display: block; top: 23px; left: 0px;font-weight: bold; }
+.binnash-bookmark-button .bookmark { height: 16px; width: 50px; background: url('../images/widget.gif') no-repeat 0px -45px; text-align: center; margin-top: 3px; display: block; cursor: pointer; padding: 0px 0px 0px; font-size: 11px; color: #FFF; text-decoration: none; line-height: 16px; }
+.binnash-bookmark-button .bookmark:hover, #binnash-bookmark-button .bookmark.selected { background-position: 0px -61px; color: #80b62a; }
+.binnash-bookmark-button .bookmark.selected { cursor: text; } 
+.binnash-bookmark-page-link{text-align: center;font-size: small;font-weight: bold;}
+/****************************************/
